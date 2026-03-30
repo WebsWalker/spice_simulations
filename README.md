@@ -1,4 +1,4 @@
-# SPICE Circuit Simulations — Portfolio Samples
+# SPICE Circuit Simulations :  Portfolio Samples
 
 > Sample deliverables from freelance simulation work.
 > For a custom simulation of your circuit, [hire me on Fiverr](#) *(link added at launch)*.
@@ -20,7 +20,7 @@
 
 ## Sample Projects
 
-### 01 — LT3800 Synchronous Buck Converter (12V to 3.3V / 2A)
+### 01 :  LT3800 Synchronous Buck Converter (12V to 3.3V / 2A)
 
 Full switching regulator analysis:
 
@@ -32,7 +32,7 @@ Full switching regulator analysis:
 
 **Tools:** LTspice XVII, Python (numpy, matplotlib), WeasyPrint
 
-### 02 — NUCLEO-H743ZI2 VDD_MCU PDN Analysis (3.3V @ 480MHz)
+### 02 :  NUCLEO-H743ZI2 VDD_MCU PDN Analysis (3.3V @ 480MHz)
 
 Power delivery network review of the STM32H743 3.3V rail on the MB1364 board:
 
@@ -79,4 +79,4 @@ embedded firmware, and metrology software API design. From silicon to API.
 
 ## Licence
 
-CC BY-NC 4.0 — see LICENSE
+CC BY-NC 4.0 :  see LICENSE
