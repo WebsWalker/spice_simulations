@@ -1,5 +1,5 @@
-# 02 — NUCLEO-H743ZI2 VDD_MCU PDN Analysis
-**3.3V Rail — STM32H743ZIT6U @ MB1364 Rev C01**
+# 02 :  NUCLEO-H743ZI2 VDD_MCU PDN Analysis
+**3.3V Rail :  STM32H743ZIT6U @ MB1364 Rev C01**
 
 ---
 
@@ -7,10 +7,10 @@
 
 | Parameter | Result | Target | Verdict |
 |-----------|--------|--------|---------|
-| Target impedance | 165mΩ flat | DC to 500MHz | — |
+| Target impedance | 165mΩ flat | DC to 500MHz | :  |
 | Peak Z in band | 52mΩ | <165mΩ | ✅ 68% margin |
 | Anti-resonances in band | 0 above target | 0 | ✅ |
-| Decoupling tiers | 3 | — | 4.7µF + 1µF + 12×100nF |
+| Decoupling tiers | 3 | :  | 4.7µF + 1µF + 12×100nF |
 
 ---
 
@@ -18,10 +18,10 @@
 
 - Target impedance derivation from VDD droop budget and STM32H743 max current
 - Stackup analysis with clearly labelled assumptions vs confirmed parameters
-- **Decoupling values extracted directly from ST's published MB1364 schematic** — not invented
+- **Decoupling values extracted directly from ST's published MB1364 schematic** :  not invented
 - PDN impedance profile before and after decoupling
 - Anti-resonance identification at each tier transition frequency
-- Margin analysis — ST's strategy provides 68% headroom, enabling BOM cost reduction discussion
+- Margin analysis :  ST's strategy provides 68% headroom, enabling BOM cost reduction discussion
 - VRM selection guidance with 3 production switching regulator candidates
 
 ---
@@ -59,4 +59,4 @@ jupyter notebook pdn_analysis.ipynb
 
 ---
 
-*Sample deliverable — [hire me on Fiverr](#) for a custom PDN review of your board.*
+*Sample deliverable :  [hire me on Fiverr](#) for a custom PDN review of your board.*
